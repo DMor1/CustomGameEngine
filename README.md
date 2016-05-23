@@ -8,9 +8,11 @@ Furthermore, this was my first experience developing a larger project around 10t
 
 Running The Program:
 1) Compile all java files (Assuming Linux) 
+
 javac *.java
 
 2) Execute TheOriginalSuperMarioBros
+
 java TheOriginalSuperMarioBros
 
 Note: For some reason, the game doesn't run very well in linux. The effects appear to be a poor refresh rate and double buffering not properly working. In addition, at least on my computer this causes collision checks to be skipped and Mario falling through the floor early in the level. This hasn't occured while running the program in windows. This may also be fixed by running the program on a faster computer due to how the game processes images.
