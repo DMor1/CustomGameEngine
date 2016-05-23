@@ -11,7 +11,7 @@ public class TheOriginalSuperMarioBros extends Game
     public StartScreen startScreen;
     public MainGameScreen mainGameScreen;
 
-    public static void Main(String[] args) {
+    public static void main(String[] args) {
         TheOriginalSuperMarioBros game = new TheOriginalSuperMarioBros();
         game.execute(825,432,100);
     }
