@@ -8,16 +8,15 @@ Furthermore, this was my first experience developing a larger project around 10t
 
 Running The Program:
 1) Compile all java files (Assuming Linux) 
-
+```
 javac *.java
+```
 
 2) Execute TheOriginalSuperMarioBros
-
+```
 java TheOriginalSuperMarioBros
+```
 
-Note: For some reason, the game doesn't run very well in linux. The effects appear to be a poor refresh rate and double buffering not properly working. In addition, at least on my computer this causes collision checks to be skipped and Mario falling through the floor early in the level. This hasn't occured while running the program in windows. This may also be fixed by running the program on a faster computer due to how the game processes images.
+![](/MarioLevel1.png)
 
-
-----
-
-Another game "Tanks" was added which uses an older version of the game engine and is incomplete. This game features automatically generated terrain and allows the user to move the tank on the left using the "a" and "d" keys. The tank on the right can be moved with the left and right arrow keys. These are both examples of the game engine in use which is stored in the "net/danielmor/engine" directory.
+![](/MarioLevel1Mid.png)
